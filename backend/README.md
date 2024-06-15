@@ -16,15 +16,18 @@
 ### JSON Response
 ```
 {
-  'name': [string],
-  'distance: [number],
-  'location': [JSON],
-  'categories': [JSON],
-  'business_hours: [JSON],
-  'price': [integer],
-  'yelp_url: [string],
-  'rating': [integer],
-  'phone': [string],
-  'image_url': [string]
+  'businesses': [
+    'name': [string],
+    'distance: [number],
+    'location': [JSON],
+    'categories': [JSON],
+    'business_hours: [JSON],
+    'price': [integer],
+    'yelp_url: [string],
+    'rating': [integer],
+    'phone': [string],
+    'image_url': [string]
+    ],
+  'total': [integer]
 } 
 ```
