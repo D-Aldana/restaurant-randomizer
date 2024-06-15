@@ -8,3 +8,23 @@
 - `price` [array of integers] : Pricing levels to filter the search result with: 1 = $, 2 = $$, 3 = $$$, 4 = $$$$. e.g., "1, 2, 3" will filter the results to show the ones that are $, $$, or $$$.
 - `open_now` [boolean] : When set to true, only return the businesses that are open now
 - `limit` [integer]: number of results to return (default 20, max 50)
+
+## API Route
+
+`api/restaurants/` - Returns a JSON of businesses 
+
+### JSON Response
+```
+{
+  'name': [string],
+  'distance: [number],
+  'location': [JSON],
+  'categories': [JSON],
+  'business_hours: [JSON],
+  'price': [integer],
+  'yelp_url: [string],
+  'rating': [integer],
+  'phone': [string],
+  'image_url': [string]
+} 
+```
