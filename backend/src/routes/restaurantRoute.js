@@ -16,15 +16,22 @@ router.get('/restaurants', async (req, res) => {
         limit
     } = req.query;
 
+    console.log("Request from client: ", searchRequest);
+
     if ((!location && (!latitude || !longitude))) {
         return res.status(400).json({ error: 'Location or latitude/longitude required' });
     }
-    
+
+    // // Redis cache key
+    // const cacheKey = `restaurants:${categories}:${radius}:${location}:${latitude}:${longitude}:${price}:${open_now}:${limit}`;
+       
     try {
+
+        // Get restaurants from Yelp API
         const restaurants = await restaurantRetriever.getRestaurants(searchRequest);
         res.send(restaurants);
     } catch (error) {
-        res.status(500).send;
+        return res.status(500).json({ error: 'Error fetching restaurants from Yelp API' });
     }
 });
 

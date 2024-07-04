@@ -20,6 +20,7 @@ axios.get(`http://localhost:3000/api/restaurants?latitude=${latitude}&longitude=
         })
     })
     .catch(error => {
-        console.log(error);
+        console.log(error.response.status);
+        console.log(error.response.data);
     });
 
