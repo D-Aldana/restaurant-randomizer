@@ -6,7 +6,7 @@
         "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/TSLOKpYhgOG2rRYKiD2Htg/o.jpg",
         "is_closed": false,
         "url": "https://www.yelp.com/biz/finns-seafood-chops-cocktails-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 227,
+        "review_count": 228,
         "categories": [
             {
                 "alias": "seafood",
@@ -23,7 +23,7 @@
             "longitude": -123.3704474
         },
         "transactions": [],
-        "price": "$$",
+        "price": "$$$",
         "location": {
             "address1": "1208 Wharf Street",
             "address2": "",
@@ -55,7 +55,7 @@
         "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/VnDNzBoffug9LhCAGlaJow/o.jpg",
         "is_closed": false,
         "url": "https://www.yelp.com/biz/il-terrazzo-ristorante-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 663,
+        "review_count": 664,
         "categories": [
             {
                 "alias": "italian",
@@ -100,7 +100,7 @@
         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/zFIDKf9EwviLevWnX9HfEA/o.jpg",
         "is_closed": false,
         "url": "https://www.yelp.com/biz/nubo-japanese-tapas-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 425,
+        "review_count": 429,
         "categories": [
             {
                 "alias": "sushi",
@@ -197,58 +197,13 @@
         }
     },
     {
-        "id": "s4nOYRbq6Kbm_1Wd1ymXxA",
-        "alias": "il-covo-trattoria-victoria",
-        "name": "Il Covo Trattoria",
-        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/BkiikkvrwiEtI1hdfbPzIA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/il-covo-trattoria-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 173,
-        "categories": [
-            {
-                "alias": "italian",
-                "title": "Italian"
-            }
-        ],
-        "rating": 4.2,
-        "coordinates": {
-            "latitude": 48.4218199,
-            "longitude": -123.38058
-        },
-        "transactions": [],
-        "price": "$$",
-        "location": {
-            "address1": "106 Superior Street",
-            "address2": null,
-            "address3": "",
-            "city": "Victoria",
-            "zip_code": "V8V 1T1",
-            "country": "CA",
-            "state": "BC",
-            "display_address": [
-                "106 Superior Street",
-                "Victoria, BC V8V 1T1",
-                "Canada"
-            ]
-        },
-        "phone": "+12503800088",
-        "display_phone": "+1 250-380-0088",
-        "distance": 7771.468434801796,
-        "attributes": {
-            "business_temp_closed": null,
-            "menu_url": "http://ilcovotrattoria.ca/wp-content/uploads/2016/06/Menu-web-July2016.pdf",
-            "open24_hours": null,
-            "waitlist_reservation": null
-        }
-    },
-    {
         "id": "92VAi9WH84e08QIlpnnn1A",
         "alias": "10-acres-bistro-victoria-4",
         "name": "10 Acres Bistro",
         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/R7G_K0dFj2hDhTOVsamABg/o.jpg",
         "is_closed": false,
         "url": "https://www.yelp.com/biz/10-acres-bistro-victoria-4?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 524,
+        "review_count": 527,
         "categories": [
             {
                 "alias": "brasseries",
@@ -291,103 +246,13 @@
         }
     },
     {
-        "id": "6h9xy18BaBAgmfhukMpf7w",
-        "alias": "part-and-parcel-victoria-2",
-        "name": "Part and Parcel",
-        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-jWY9Xw8zjo6dHXkuCeocA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/part-and-parcel-victoria-2?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 69,
-        "categories": [
-            {
-                "alias": "newcanadian",
-                "title": "Canadian (New)"
-            }
-        ],
-        "rating": 4.6,
-        "coordinates": {
-            "latitude": 48.4390602,
-            "longitude": -123.3594894
-        },
-        "transactions": [],
-        "price": "$$",
-        "location": {
-            "address1": "2656 Quadra St",
-            "address2": "",
-            "address3": "",
-            "city": "Victoria",
-            "zip_code": "V8T 4E4",
-            "country": "CA",
-            "state": "BC",
-            "display_address": [
-                "2656 Quadra St",
-                "Victoria, BC V8T 4E4",
-                "Canada"
-            ]
-        },
-        "phone": "+17784060888",
-        "display_phone": "+1 778-406-0888",
-        "distance": 5329.1935297743485,
-        "attributes": {
-            "business_temp_closed": null,
-            "menu_url": "http://www.partandparcel.ca/menu/",
-            "open24_hours": null,
-            "waitlist_reservation": true
-        }
-    },
-    {
-        "id": "Cd5cSFJTu4lCTtWSn06Vsw",
-        "alias": "ithaka-greek-restaurant-victoria",
-        "name": "Ithaka Greek Restaurant",
-        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/aLPvJxtv-oIuw0jC5N6--A/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/ithaka-greek-restaurant-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 184,
-        "categories": [
-            {
-                "alias": "greek",
-                "title": "Greek"
-            }
-        ],
-        "rating": 4.5,
-        "coordinates": {
-            "latitude": 48.4223019,
-            "longitude": -123.3648329
-        },
-        "transactions": [],
-        "price": "$$",
-        "location": {
-            "address1": "716 Burdett Avenue",
-            "address2": "",
-            "address3": "",
-            "city": "Victoria",
-            "zip_code": "V8W 3G2",
-            "country": "CA",
-            "state": "BC",
-            "display_address": [
-                "716 Burdett Avenue",
-                "Victoria, BC V8W 3G2",
-                "Canada"
-            ]
-        },
-        "phone": "+12503846474",
-        "display_phone": "+1 250-384-6474",
-        "distance": 7189.9710261414675,
-        "attributes": {
-            "business_temp_closed": null,
-            "menu_url": "https://www.ithakagreek.ca/menus",
-            "open24_hours": null,
-            "waitlist_reservation": true
-        }
-    },
-    {
         "id": "YWF-tjlIioXPviM67GwEGw",
         "alias": "red-fish-blue-fish-victoria",
         "name": "Red Fish Blue Fish",
         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Mbcly7AJhfQ18O-R3FXUhA/o.jpg",
         "is_closed": false,
         "url": "https://www.yelp.com/biz/red-fish-blue-fish-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 1424,
+        "review_count": 1432,
         "categories": [
             {
                 "alias": "fishnchips",
@@ -434,56 +299,199 @@
         }
     },
     {
-        "id": "ByYgAEzAgyPxn7A7HY5A3g",
-        "alias": "fishhook-victoria",
-        "name": "Fishhook",
-        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/A-iQnfgQ47uisZ9_cpC2Ig/o.jpg",
+        "id": "Cd5cSFJTu4lCTtWSn06Vsw",
+        "alias": "ithaka-greek-restaurant-victoria",
+        "name": "Ithaka Greek Restaurant",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/aLPvJxtv-oIuw0jC5N6--A/o.jpg",
         "is_closed": false,
-        "url": "https://www.yelp.com/biz/fishhook-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
-        "review_count": 337,
+        "url": "https://www.yelp.com/biz/ithaka-greek-restaurant-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
+        "review_count": 185,
+        "categories": [
+            {
+                "alias": "greek",
+                "title": "Greek"
+            }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+            "latitude": 48.4223019,
+            "longitude": -123.3648329
+        },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "716 Burdett Avenue",
+            "address2": "",
+            "address3": "",
+            "city": "Victoria",
+            "zip_code": "V8W 3G2",
+            "country": "CA",
+            "state": "BC",
+            "display_address": [
+                "716 Burdett Avenue",
+                "Victoria, BC V8W 3G2",
+                "Canada"
+            ]
+        },
+        "phone": "+12503846474",
+        "display_phone": "+1 250-384-6474",
+        "distance": 7189.9710261414675,
+        "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.ithakagreek.ca/menus",
+            "open24_hours": null,
+            "waitlist_reservation": true
+        }
+    },
+    {
+        "id": "fpz8HkJisCOFdfLtVVel_g",
+        "alias": "nautical-nellies-steak-and-seafood-house-victoria",
+        "name": "Nautical Nellies Steak & Seafood House",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/oobYWassUKSqynPx2VgiWg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/nautical-nellies-steak-and-seafood-house-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
+        "review_count": 412,
         "categories": [
             {
                 "alias": "seafood",
                 "title": "Seafood"
             },
             {
-                "alias": "indpak",
-                "title": "Indian"
-            },
-            {
-                "alias": "french",
-                "title": "French"
+                "alias": "steak",
+                "title": "Steakhouses"
             }
         ],
-        "rating": 4.5,
+        "rating": 4,
         "coordinates": {
-            "latitude": 48.42402,
-            "longitude": -123.36213
+            "latitude": 48.42448,
+            "longitude": -123.36939
         },
         "transactions": [],
         "price": "$$",
         "location": {
-            "address1": "805 Fort Street",
+            "address1": "1001 Wharf Street",
             "address2": "",
             "address3": "",
             "city": "Victoria",
-            "zip_code": "V8W 1H6",
+            "zip_code": "V8W 1T6",
             "country": "CA",
             "state": "BC",
             "display_address": [
-                "805 Fort Street",
-                "Victoria, BC V8W 1H6",
+                "1001 Wharf Street",
+                "Victoria, BC V8W 1T6",
                 "Canada"
             ]
         },
-        "phone": "+12504770470",
-        "display_phone": "+1 250-477-0470",
-        "distance": 6923.0835529652495,
+        "phone": "+12503802260",
+        "display_phone": "+1 250-380-2260",
+        "distance": 7110.383508953873,
         "attributes": {
             "business_temp_closed": null,
-            "menu_url": "http://fishhookvic.com/fort-street/#Menu",
+            "menu_url": "",
             "open24_hours": null,
             "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "ryM6eYra7rlQsOdG_reO7g",
+        "alias": "irish-times-pub-victoria",
+        "name": "Irish Times Pub",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/E2oFYV4g-sGGyT0XwDXknQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/irish-times-pub-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
+        "review_count": 467,
+        "categories": [
+            {
+                "alias": "irish_pubs",
+                "title": "Irish Pub"
+            },
+            {
+                "alias": "musicvenues",
+                "title": "Music Venues"
+            },
+            {
+                "alias": "breakfast_brunch",
+                "title": "Breakfast & Brunch"
+            }
+        ],
+        "rating": 4.1,
+        "coordinates": {
+            "latitude": 48.42582,
+            "longitude": -123.36808
+        },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "1200 Government Street",
+            "address2": "",
+            "address3": "",
+            "city": "Victoria",
+            "zip_code": "V8W 1Y3",
+            "country": "CA",
+            "state": "BC",
+            "display_address": [
+                "1200 Government Street",
+                "Victoria, BC V8W 1Y3",
+                "Canada"
+            ]
+        },
+        "phone": "+12503837775",
+        "display_phone": "+1 250-383-7775",
+        "distance": 6940.030694783463,
+        "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.irishtimespub.ca/food",
+            "open24_hours": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "Jz7ONMpv5ZnKcLj2Tq2cKA",
+        "alias": "pagliaccis-victoria",
+        "name": "Pagliacci's",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/pviiqbxyXOJ9vgkXHz5FNw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/pagliaccis-victoria?adjust_creative=9UHjzr8cx-7XC5jvGLi_iQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=9UHjzr8cx-7XC5jvGLi_iQ",
+        "review_count": 651,
+        "categories": [
+            {
+                "alias": "seafood",
+                "title": "Seafood"
+            },
+            {
+                "alias": "steak",
+                "title": "Steakhouses"
+            }
+        ],
+        "rating": 4.1,
+        "coordinates": {
+            "latitude": 48.424454671302136,
+            "longitude": -123.36641770186765
+        },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "1011 Broad Street",
+            "address2": "",
+            "address3": "",
+            "city": "Victoria",
+            "zip_code": "V8W 2A1",
+            "country": "CA",
+            "state": "BC",
+            "display_address": [
+                "1011 Broad Street",
+                "Victoria, BC V8W 2A1",
+                "Canada"
+            ]
+        },
+        "phone": "+12503861662",
+        "display_phone": "+1 250-386-1662",
+        "distance": 7019.845090676109,
+        "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.pagliaccis.ca/#lunch-menu",
+            "open24_hours": null,
+            "waitlist_reservation": false
         }
     }
 ]
