@@ -4,6 +4,7 @@ const restaurantRetriever = require('../components/getRestaurant')
 const redisClient = require('../utils/redisClient');
 
 redisClient.connect();
+
 // Restaurant Route
 router.get('/restaurants', async (req, res) => {
     const searchRequest = {

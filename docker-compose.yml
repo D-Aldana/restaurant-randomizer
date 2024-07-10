@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  ##############################################
+  # Service: web
+  backend:
+    build:
+      context: ./backend/
+      dockerfile: backend_dockerfile
+      args:
+        - NODE_PORT=3000
+    ports:
+      - 3000:3000
+    depends_on:
+      - redis
+    environment:
+      REDIS_ADDR: redis://cache:6379
+      NODE_PORT: 3000
+
+  ##############################################
+  # Service: redis
+  redis:
+    image: redis
+    container_name: cache
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:

@@ -1,0 +1,19 @@
+FROM node:18
+
+WORKDIR .
+COPY . .
+
+# Define build argument
+ARG APP_PORT
+
+# Set environment variables
+ENV APP_PORT=${APP_PORT}
+
+RUN npm install
+
+# Node
+EXPOSE ${APP_PORT}
+
+
+CMD ["npm", "start"]
+

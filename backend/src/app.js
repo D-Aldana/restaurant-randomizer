@@ -8,7 +8,7 @@ app.use('/api', restaurantRoute);
 
 // TODO: Replace with production server and port
 // TODO: Add error handling and logging
-const port = process.env.PORT || 3000;
+const port = process.env.NODE_PORT || 3000;
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
