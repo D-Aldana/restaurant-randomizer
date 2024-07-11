@@ -1,26 +1,47 @@
 const axios = require('axios');
+const fs = require('fs');
 
-const latitude = 48.481613182408985;
-const longitude = -123.32600414521778;
-const limit = 10;
-const radius = 10000;
-const categories = [];
-const price = [1, 2, 3, 4];
-const open_now = true;
+// Load test cases from JSON file
+const testCases = require('./data/test_data_suite.json');
 
-// Make a request to the to the backend server to get restaurants
-axios.get(`http://localhost:3000/api/restaurants?latitude=${latitude}&longitude=${longitude}&limit=${limit}&radius=${radius}&categories=${categories}&price=${price}&open_now=${open_now}`)
-    .then(response => {
-        const fs = require('fs');
-        fs.writeFile('yelp.json', JSON.stringify(response.data, null, 4), (err) => {
-            if (err) throw err;
-            //print number of businesses found
+testCases.forEach(async (testCase) => {
+  const {
+    test_num,
+    latitude,
+    longitude,
+    limit,
+    radius,
+    categories,
+    price,
+    open_now,
+    expected_status_code,
+  } = testCase;
 
-            console.log('The file has been saved! ' + response.data.length);
-        })
-    })
-    .catch(error => {
-        console.log(error.response.status);
-        console.log(error.response.data);
+  try {
+    const response = await axios.get('http://localhost:3000/api/restaurants', {
+      params: {
+        latitude,
+        longitude,
+        limit,
+        radius,
+        categories,
+        price,
+        open_now,
+      },
     });
 
+    if (response.status === expected_status_code) {
+      console.log(`Test case passed: ${test_num}`);
+    } else {
+      console.log(`Test case failed: ${test_num}`);
+    }
+  } catch (error) {
+    console.log(`Test case error: ${test_num}`);
+    if (error.response) {
+      console.log(error.response.status);
+      console.log(error.response.data);
+    } else {
+      console.log(error.message);
+    }
+  }
+});

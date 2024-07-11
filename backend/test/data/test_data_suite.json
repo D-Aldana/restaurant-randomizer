@@ -1,0 +1,156 @@
+[
+  {
+    "test_num": 1,
+    "latitude": 48.481613182408985,
+    "longitude": -123.32600414521778,
+    "limit": 10,
+    "radius": 10000,
+    "categories": [],
+    "price": [1, 2, 3, 4],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 2,
+    "latitude": 37.774929,
+    "longitude": -122.419418,
+    "limit": 5,
+    "radius": 5000,
+    "categories": ["chinese"],
+    "price": [2, 3],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 3,
+    "latitude": 40.712776,
+    "longitude": -74.005974,
+    "limit": 20,
+    "radius": 20000,
+    "categories": ["indian"],
+    "price": [1, 4],
+    "open_now": false,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 4,
+    "latitude": 34.052235,
+    "longitude": -118.243683,
+    "limit": 15,
+    "radius": 8000,
+    "categories": ["mexican"],
+    "price": [3],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 5,
+    "latitude": 51.507351,
+    "longitude": -0.127758,
+    "limit": 10,
+    "radius": 10000,
+    "categories": ["italian"],
+    "price": [2, 3, 4],
+    "open_now": false,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 6,
+    "latitude": 35.689487,
+    "longitude": 139.691711,
+    "limit": 10,
+    "radius": 15000,
+    "categories": ["japanese"],
+    "price": [1, 2],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 7,
+    "latitude": -33.868820,
+    "longitude": 151.209296,
+    "limit": 8,
+    "radius": 12000,
+    "categories": ["french"],
+    "price": [4],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 8,
+    "latitude": 48.856613,
+    "longitude": 2.352222,
+    "limit": 12,
+    "radius": 7000,
+    "categories": ["thai"],
+    "price": [2, 3],
+    "open_now": false,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 9,
+    "latitude": 52.520008,
+    "longitude": 13.404954,
+    "limit": 5,
+    "radius": 3000,
+    "categories": ["vegetarian"],
+    "price": [1, 2, 3, 4],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 10,
+    "latitude": 55.755825,
+    "longitude": 37.617298,
+    "limit": 7,
+    "radius": 9000,
+    "categories": ["russian"],
+    "price": [3, 4],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 11,
+    "latitude": 40.730610,
+    "longitude": -73.935242,
+    "limit": 10,
+    "radius": 10000,
+    "categories": ["pizza"],
+    "price": [1, 2],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 12,
+    "latitude": 34.052235,
+    "longitude": -118.243683,
+    "limit": 15,
+    "radius": 10000,
+    "categories": ["burgers"],
+    "price": [2, 3, 4],
+    "open_now": true,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 13,
+    "latitude": 51.507351,
+    "longitude": -0.127758,
+    "limit": 10,
+    "radius": 10000,
+    "categories": ["seafood"],
+    "price": [2, 3, 4],
+    "open_now": false,
+    "expected_status_code": 200
+  },
+  {
+    "test_num": 14,
+    "latitude": -37.813629,
+    "longitude": 144.963058,
+    "limit": 12,
+    "radius": 10000,
+    "categories": ["steak"],
+    "price": [1, 2, 3],
+    "open_now": true,
+    "expected_status_code": 200
+  }
+]
