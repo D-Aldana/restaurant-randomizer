@@ -1,0 +1,19 @@
+FROM node:18:alpine
+
+WORKDIR .
+COPY . .
+
+# Define build argument
+ARG API_URL
+ENV API_URL=${BACKEND_URL}
+
+ARG APP_PORT
+ENV APP_PORT=${APP_PORT}
+
+RUN npm install
+
+# Node
+EXPOSE ${APP_PORT}
+
+CMD ["npm", "start"]
+
