@@ -10,6 +10,7 @@ ENV API_URL=${BACKEND_URL}
 ARG APP_PORT
 ENV APP_PORT=${APP_PORT}
 
+# Install dependencies
 RUN npm install
 
 # Node
